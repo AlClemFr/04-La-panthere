@@ -3,6 +3,11 @@
 /* j- Attention */
 /* v- Tous OK */
 /* b- Je sais pas */
+/* vi- Commentaire */
+
+.toto {
+    color: #a85eea;
+}
 
 body {
     margin: 0;
