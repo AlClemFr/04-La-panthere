@@ -299,7 +299,7 @@ a:hover {
     font-size: 32px;
 }
 
-.navbar {
+.navbar-x {
     margin-bottom: 0;
     z-index: 1;
 }
@@ -323,7 +323,7 @@ a:hover {
     min-width: 100px;
 }
 
-.nav-center .navbar-brand img {
+.nav-center-x .navbar-brand img {
     margin: 0;
 }
 
@@ -334,41 +334,41 @@ a:hover {
     z-index: 1;
 }
 
-.nav>li {
+.nav-x>li {
     float: left;
     margin-top: 4px;
     font-size: 16px;
 }
 
-.navbar-nav .open .dropdown-menu>li>a {
+.navbar-nav-x .open .dropdown-menu>li>a {
     text-align: inherit;
 }
 
-.nav>li a:hover,
-.nav>li a:focus {
+.nav-x>li a:hover,
+.nav-x>li a:focus {
     background: transparent;
 }
 
-.navbar-toggle {
+.navbar-toggle-x {
     margin: 10px 10px 0 0;
     border: 0px;
 }
 
-.navbar-toggle:hover {
+.navbar-toggle-x:hover {
     background: transparent !important;
 }
 
-.navbar-toggle .icon-bar {
+.navbar-toggle-x .icon-bar {
     background-color: rgba(0, 0, 0, .5);
     width: 26px;
 }
 
-.nav-invert .navbar .nav {
+.nav-invert-x .navbar-x .nav-x {
     float: left;
 }
 
-.nav-invert .navbar-header,
-.nav-invert .navbar-brand {
+.nav-invert-x .navbar-header-x,
+.nav-invert-x .navbar-brand {
     float: right;
     position: relative;
     z-index: 2;
@@ -383,32 +383,32 @@ a:hover {
         -webkit-transform: translateY(-50%);
     }
 
-    .nav>li .dropdown-menu a,
-    .nav>li .dropdown-menu a:hover {
+    .nav-x>li .dropdown-menu a,
+    .nav-x>li .dropdown-menu a:hover {
         color: #484848;
     }
 
-    .nav-invert .site-navigation {
+    .nav-invert-x .site-navigation {
         left: 0;
         right: 0;
     }
 
-    .nav-center {
+    .nav-center-x {
         text-align: center;
     }
 
-    .nav-center .navbar-header {
+    .nav-center-x .navbar-header-x {
         width: 100%;
     }
 
-    .nav-center .navbar-header,
-    .nav-center .navbar-brand,
-    .nav-center .nav>li {
+    .nav-center-x .navbar-header-x,
+    .nav-center-x .navbar-brand,
+    .nav-center-x .nav-x>li {
         float: none;
         display: inline-block;
     }
 
-    .nav-center .site-navigation {
+    .nav-center-x .site-navigation {
         position: relative;
         width: 100%;
         right: 0;
@@ -416,19 +416,21 @@ a:hover {
         margin-top: 20px;
     }
 
-    .nav-center.mini-nav .navbar-toggle {
+    .nav-center-x
+    .mini-nav .navbar-toggle-x {
         float: none;
         margin: 10px auto 0;
     }
 }
 
-.nav>li>.dropdown a {
+.nav-x>li>.dropdown a {
     background: none !important;
     display: block;
     padding: 14px 15px;
 }
 
-nav .caret {
+/* j- aatention yavait nav au lieu de .nav */
+.nav-x .caret {
     margin: 0 5px;
 }
 
@@ -854,10 +856,10 @@ h4 {
 }
 
 /* v-ac // rajout margin, tous bon*/
-.Icone-margin{
-    display:flex;
-    margin-top:5px;
-    margin-bottom:30px;
+.Icone-margin {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 30px;
 }
 
 /* r-ac // a virer */
@@ -878,8 +880,8 @@ h4 {
 /* v-ac// c'est ok pour ce new media query  */
 @media (min-width: 992px) {
     .bloc-lg-plus {
-        width:100%; 
-        margin-left:25%;
+        width: 100%;
+        margin-left: 25%;
         /* margin-right:auto; */
         margin-top: -40px;
         margin-bottom: 20px;
@@ -902,22 +904,22 @@ h4 {
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
-    .navbar .nav {
+    .navbar-x .nav-x {
         max-width: 80%
     }
 
-    .nav-center.navbar .nav {
+    .nav-center-x.navbar-x .nav-x {
         max-width: 100%
     }
 
-        /* v-ac // ntous bon pour le centrage  */
-        .bloc-lg-plus {
-            width: 100%;
-            margin-left: 25%;
-            margin-right: auto;
-            margin-top: -40px;
-            margin-bottom: 20px;
-        }
+    /* v-ac // ntous bon pour le centrage  */
+    .bloc-lg-plus {
+        width: 100%;
+        margin-left: 25%;
+        margin-right: auto;
+        margin-top: -40px;
+        margin-bottom: 20px;
+    }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -1006,7 +1008,7 @@ h4 {
         -ms-transform: none;
     }
 
-    .nav>li {
+    .nav-x>li {
         margin-top: 0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
         background: rgba(0, 0, 0, .05);
@@ -1015,7 +1017,7 @@ h4 {
         width: 100%;
     }
 
-    .nav>li:hover {
+    .nav-x>li:hover {
         background: rgba(0, 0, 0, .08);
     }
 
@@ -1057,12 +1059,12 @@ h4 {
         width: auto;
     }
 
-    .nav-invert .navbar-header {
+    .nav-invert-x .navbar-header-x {
         float: none;
         width: 100%;
     }
 
-    .nav-invert .navbar-toggle {
+    .nav-invert-x .navbar-toggle-x {
         float: left;
         margin-left: 10px;
     }
