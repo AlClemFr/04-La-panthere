@@ -299,6 +299,7 @@ a:hover {
     font-size: 32px;
 }
 
+/* j-inhiber voir à virer */
 .navbar-x {
     margin-bottom: 0;
     z-index: 1;
@@ -323,11 +324,12 @@ a:hover {
     min-width: 100px;
 }
 
+/* j-inhiber voir à virer */
 .nav-center-x .navbar-brand img {
     margin: 0;
 }
 
-.navbar .nav {
+.navbar-x .nav-x {
     padding-top: 2px;
     margin-right: -16px;
     float: right;
@@ -416,8 +418,7 @@ a:hover {
         margin-top: 20px;
     }
 
-    .nav-center-x
-    .mini-nav .navbar-toggle-x {
+    .nav-center-x .mini-nav-x .navbar-toggle-x {
         float: none;
         margin: 10px auto 0;
     }
@@ -868,7 +869,7 @@ h4 {
     flex-direction:row;
 } */
 
-/* v-ac// c'est ok pour margin top & bottom  */
+/* v- rajout */
 .bloc-lg-plus {
     /* width:100%; 
     margin-left:25%; */
@@ -877,7 +878,42 @@ h4 {
     margin-bottom: 20px;
 }
 
-/* v-ac// c'est ok pour ce new media query  */
+/* v- rajout */
+.col-sm-22 {
+    width: 70%;
+    color: #575757;
+    font-size: 1.4em;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: 20px; */
+    margin-top: 20px;
+}
+
+/* v- rajout */
+.col-sm-22B {
+    font-style: normal;
+}
+
+/* v- rajout */
+.col-sm-23 {
+    width: 85%;
+    font-size: 1.6em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+/* v- rajout */
+.col-sm-24 {
+    width: 90%;
+    font-size: 1.7em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+/* v- c'est ok pour ce new media query  */
 @media (min-width: 992px) {
     .bloc-lg-plus {
         width: 100%;
