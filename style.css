@@ -102,8 +102,9 @@ a:hover {
     right: 0;
 }
 
+/* v- remplacer png par webp */
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -833,20 +834,24 @@ h4 {
     border-color: #364577 !important;
 }
 
+/* v- remplacer png par webp */
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.webp");
 }
 
+/* v- remplacer png par webp */
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
+/* v- remplacer jpg par webp */
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.webp");
 }
 
+/* v- remplacer bmp par webp */
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 /* j-ac // rajout hover */
