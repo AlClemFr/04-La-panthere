@@ -135,7 +135,9 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-  color: rgba(255, 255, 255, .6);
+  /* color: rgba(255, 255, 255, .6); */
+  /* j-ac teste */
+  color: rgba(6, 0, 0, 0.6);
 }
 
 .d-bloc .a-btn:hover,
@@ -677,6 +679,12 @@ h4 {
 .white {
   color: #FFFFFF !important;
 }
+
+/* j-ac rajout pour tesxte au desuus icone social */
+.black {
+  color: #030000 !important;
+}
+
 
 .portfolio-thumb {
   margin-bottom: 24px;
