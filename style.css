@@ -619,6 +619,9 @@ a {
 
 p {
   font-size: 11px;
+  /* j- modif */
+  font-size: 14px;
+
 }
 
 .tight-width-whitespace {
