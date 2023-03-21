@@ -619,9 +619,8 @@ a {
 
 p {
   font-size: 11px;
-  /* j- modif */
+  /* j- modif  pour SEO taille doit etre >12px pour une meilleur visibilitée*/
   font-size: 14px;
-
 }
 
 .tight-width-whitespace {
@@ -690,11 +689,13 @@ h4 {
 
 /* j-ac modif taille font */
 .ul01 {
-  font-size: medium;
+  font-size: 1em;
 }
 
 li {
   font-size: small;
+  font-size: 1.5em;
+
 }
 
 
